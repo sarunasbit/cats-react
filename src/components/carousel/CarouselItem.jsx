@@ -1,7 +1,7 @@
 import './_carousel.scss';
 import Carousel from 'react-bootstrap/Carousel';
 
-const CarouselItem =({catImages, breeds})=>{
+const CarouselItem =({catImages})=>{
 
     if (!catImages || catImages.length === 0) {
         return null;
